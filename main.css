@@ -1,0 +1,294 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 34px;
+}
+
+h2 {
+  color: #666;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 450px;
+  height: 500px;
+  margin-top: 10px;
+  float: left;
+  margin-right: 20px;
+  
+}
+
+div p {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin-top: 100px;
+}
+
+
+
+/* Главная Страничка */
+header {
+  background-color: #eaeaea;
+  padding: 20px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.menu li a:hover {
+  color: #a74242;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(00px, 1fr));
+  grid-gap: 20px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+
+
+.footer-content {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* КОНТАКТЫ */
+.contact-menu {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#email:focus {
+  color: #5703FF;
+  border-color: #5703FF; 
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.map-container {
+  margin-left: -640px;
+}
+
+/* Стили для шапки сайта */
+header {
+  height: 150px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Стили для навигации */
+nav {
+  background-color: #333;
+  padding: 10px;
+  height: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  padding: 20px;
+}
+
+.product {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.product h3 {
+  margin-top: 10px;
+}
+
+.product p {
+  color: #888;
+}
+
+.product button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  height: 50px;
+}
+/* Стили для таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.product-image {
+  position: relative;
+}
+
+.product-image img {
+  display: block;
+}
+
+.product-image:hover img {
+  opacity: 0.8;
+}
+
+.product-image:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  pointer-events: none;
+}
+.product-description p::first-letter {
+  font-size: 30px; 
+  font-family: Arial, sans-serif; 
+  font-weight: bold;
+}
+tr:first-child {
+  height: 50px; 
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.logo {
+  width: 30px;
+  height: auto; 
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+button:hover,
+button:active {
+  /* Задайте желаемые стили при наведении и нажатии */
+}
